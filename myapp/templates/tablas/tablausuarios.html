@@ -1,0 +1,20 @@
+<table class="table table-striped-columns">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Email</th
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+        <tr>
+            <th scope="row">{{ usuario.id }}</th>
+            <td>{{ users.nombre }}</td>
+            <td>{{ users.apellido }}</td>
+            <td>{{ users.email }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
